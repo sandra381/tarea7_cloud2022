@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Indie+Flower&family=Questrial&display=swap);
+#principal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+  padding: 20px;
+  width: 97%;
+  height: 10%;
+  background-color: #BFB9CF;
+  font-size: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#principal h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
+  text-align: center;
+}
+
+#principal h2 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  text-align: left;
+}
+
+#principal button {
+  background-color: #fee2e3;
+  border: black solid 3px;
+  font-size: 20px;
+  width: 200px;
+  height: 100px;
+  font-family: 'Questrial', sans-serif;
+  font-size: 30px;
+}
+
+#principal input {
+  width: 200px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+#secundario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 10px;
+  text-align: center;
+  padding: 20px;
+}
+/*# sourceMappingURL=login.component.css.map */

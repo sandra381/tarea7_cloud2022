@@ -1,0 +1,20 @@
+$margen_principal : 40px;
+$padding : 20px;
+@import url(https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Indie+Flower&family=Questrial&display=swap);
+#principal{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: $padding;
+    width: 97%;
+    height: 90%;
+    background-color: #8498af;
+    font-size: 10px;
+    justify-content: center;
+    h1{
+        font-family: 'Indie Flower', cursive;
+        font-size: 50px;
+        text-align: center;
+    }
+}

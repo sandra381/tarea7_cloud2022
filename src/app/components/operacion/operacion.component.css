@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Indie+Flower&family=Questrial&display=swap);
+#principal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  width: 97%;
+  height: 90%;
+  background-color: #8498af;
+  font-size: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#principal h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
+  text-align: center;
+}
+/*# sourceMappingURL=operacion.component.css.map */

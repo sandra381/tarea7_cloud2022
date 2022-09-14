@@ -1,0 +1,52 @@
+$margen_principal : 40px;
+$padding : 20px;
+@import url(https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Indie+Flower&family=Questrial&display=swap);
+#principal{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: $padding;
+    width: 97%;
+    height: 10%;
+    background-color: #BFB9CF ;
+    font-size: 10px;
+    justify-content: center;
+    h1{
+        font-family: 'Indie Flower', cursive;
+        font-size: 50px;
+        text-align: center;
+    }
+    h2{
+        font-family: 'Indie Flower', cursive;
+        font-size: 30px;
+        text-align: left;
+    }
+    button{
+        
+        background-color: #fee2e3 ;
+        border: black solid 3px;
+        font-size: 20px;
+        width: 200px;
+        height: 100px;
+        font-family: 'Questrial', sans-serif;
+        font-size: 30px;
+       
+
+    }
+    input{
+        width: 200px;
+        height: 50px;
+        display: flex;
+        text-align: center;
+        
+    }
+}
+#secundario{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px ;
+    text-align: center;
+    padding: $padding;
+}
