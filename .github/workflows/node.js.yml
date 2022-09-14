@@ -29,7 +29,7 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - name: Compress Files
-      run: cd dist/tarea7_cloud2022 && zip -r build.zip . && cd ../..
+      run: cd C:\Users\danie\Documents\GitHub\tarea7_cloud2022 && zip -r build.zip . && cd ../..
       
     - name: Create Draft Release
       id: create_release
